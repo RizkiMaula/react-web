@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'great-wishes';
+  src: url(font/great-wishes.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+:root {
+  --light-gray: #b5b5b5;
+  --medium-gray: #646464;
+  --dark-gray: #3c3c3c;
+  --black: #131313;
+}
+
+main {
+  background-color: var(--black);
+  color: var(--light-gray);
+}
+
+/* Nav */
+
+header {
+  background-color: var(--light-gray);
+  border: 2px solid black;
+}
+
+nav a {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: var(--black);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+nav a:hover {
+  color: var(--dark-gray);
+}
+
+.title {
+  font-family: great-wishes;
+  font-size: 2em;
+  color: var(--black);
+}
+
+.login {
+  font-size: 1.1em;
+}
+
+.login a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.login a:hover {
+  color: var(--dark-gray);
+}
+
+.search input {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+/* The End of Nav */
+
+/* Trending */
+
+.trending img {
+  height: 500px;
+  width: 300px;
+}
+
+.recomendation .container .row .col img {
+  width: 100px;
+  height: 150px;
+}
+
+.recomendation,
+.originals,
+.series,
+.genres {
+  margin-top: 20px;
+}
+
+/* The end of Trending */
+
+/* Series, Originals, Genres */
+
+.series .container .row .col img,
+.originals .container .row .col img {
+  width: 100px;
+  height: 150px;
+}
+
+.genres .container .row .col p {
+  padding: 20px 0;
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  border-radius: 20px;
+}
+
+.genres .container .row .col p a {
+  text-decoration: none;
+  color: var(--light-gray);
+}
+
+.genres .container .row .col p:hover {
+  background-color: var(--medium-gray);
+}
+
+/* The End of Series, Originals, Genres*/
+
+footer {
+  background-color: var(--light-gray);
+}
+
+footer .printilan {
+  font-size: 1.8rem;
+  color: var(--black);
+}
+
+.copyright {
+  color: var(--black);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--dark-gray);
+}
+
+footer a:hover {
+  color: var(--medium-gray);
+}
